@@ -1,6 +1,5 @@
 " ~/.gvimrc
 
-set background=light
 set columns=81
 if has('gui_gtk2')
   set guifont=DejaVu\ Sans\ Mono\ Book\ 12
@@ -18,3 +17,7 @@ set icon
 set lines=1000
 set mousehide
 set showtabline=2
+
+set background=light
+syntax on
+colorscheme nkraft

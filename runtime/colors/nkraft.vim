@@ -64,7 +64,6 @@ if &background == 'light'
     hi StorageClass cterm=bold ctermfg=DarkBlue gui=bold guifg=Blue
     hi Structure cterm=bold ctermfg=DarkRed gui=bold guifg=Red
     "hi Typedef
-  hi Special
   hi Special cterm=none ctermfg=Magenta gui=bold guifg=Brown
     "hi SpecialChar
     "hi Tag
