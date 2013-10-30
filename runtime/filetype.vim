@@ -7,7 +7,7 @@ endif
 augroup filetypedetect
 
 " ANTLR
-au BufNewFile,BufRead *.g, *.g3 setf antlr
+au BufNewFile,BufRead *.g3 setf antlr3
 
 " C++
 au BufNewFile,BufRead *.ipp setf cpp

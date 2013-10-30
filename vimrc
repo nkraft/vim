@@ -7,6 +7,7 @@ call pathogen#infect()
 
 set nocompatible
 
+set autoindent
 set autoread
 set autowrite
 set backspace=indent,eol,start
@@ -51,6 +52,7 @@ set splitbelow
 set splitright
 set nostartofline
 set noswapfile
+set tabpagemax=100
 set title
 if has('mouse')
     set ttymouse=xterm2
@@ -74,7 +76,7 @@ if has('extra_search')
 endif
 set ignorecase  " Use case-insensitive search for lowercase letters
 set smartcase   " Use case-sensitive search for uppercase letters
-set matchpairs="(:),{:},[:],<:>"
+set matchpairs=(:),{:},[:],<:>
 set showmatch
 
 " }}}
@@ -117,9 +119,6 @@ set printexpr=PrintFile(v:fname_in)
 
 if has('autocmd')
   if exists('+filetype')
-    if $HOME !~# '^/Users/'
-      filetype off
-    endif
     filetype plugin indent on
   endif
 
