@@ -57,9 +57,9 @@ set title
 if has('mouse')
     set ttymouse=xterm2
 endif
-if exists('+undofile')
-  set undofile
-endif
+"if exists('+undofile')
+  "set undofile
+"endif
 if has('viminfo')
   set viminfo='25,/25,:25,<100,h,n~/.viminfo
 endif
@@ -113,6 +113,13 @@ set printexpr=PrintFile(v:fname_in)
 " }}}
 " Commands {{{
 
+nmap <F1> <nop>
+"map<F1> <Esc>
+"imap<F1> <Esc>
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 " }}}
 " Autocommands {{{
