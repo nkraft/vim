@@ -9,7 +9,7 @@ let colors_name = "nkraft"
 
 if &background == 'light'
   " Default Highlighting Groups {{{
-  hi Normal ctermfg=Black ctermbg=White guifg=Black guibg=White
+  hi Normal ctermfg=Black ctermbg=none guifg=Black guibg=White
   hi ColorColumn ctermbg=LightGray guibg=LightGray
   hi Cursor ctermfg=White ctermbg=Red guifg=White guibg=Red
   hi lCursor ctermfg=White ctermbg=DarkGreen guifg=White guibg=DarkGreen
