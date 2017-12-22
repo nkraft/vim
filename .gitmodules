@@ -1,6 +1,6 @@
 [submodule "runtime/bundle/vim-pathogen"]
 	path = runtime/bundle/vim-pathogen
-	url = git://github.com/tpope/vim-pathogen.git
+	url = https://github.com/tpope/vim-pathogen.git
 [submodule "runtime/bundle/vim-commentary"]
 	path = runtime/bundle/vim-commentary
-	url = git://github.com/tpope/vim-commentary.git
+	url = https://github.com/tpope/vim-commentary.git
