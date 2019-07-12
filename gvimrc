@@ -1,7 +1,7 @@
 " ~/.gvimrc
 
 set columns=81
-set guifont=Consolas:h14
+set guifont=Menlo:h12
 set guioptions-=a
 set guioptions+=e
 set guioptions+=i
