@@ -1,3 +1,9 @@
 [submodule "runtime/pack/tpope/start/vim-commentary"]
 	path = runtime/pack/tpope/start/vim-commentary
 	url = git@github.com:tpope/vim-commentary
+[submodule "runtime/pack/tpope/start/vim-fugitive"]
+	path = runtime/pack/tpope/start/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "runtime/pack/tpope/start/vim-endwise"]
+	path = runtime/pack/tpope/start/vim-endwise
+	url = git@github.com:tpope/vim-endwise.git
