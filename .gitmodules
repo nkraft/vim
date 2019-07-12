@@ -1,3 +1,3 @@
 [submodule "runtime/pack/tpope/start/vim-commentary"]
 	path = runtime/pack/tpope/start/vim-commentary
-	url = https://github.com/tpope/vim-commentary.git
+	url = git@github.com:tpope/vim-commentary

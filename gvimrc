@@ -1,11 +1,7 @@
 " ~/.gvimrc
 
 set columns=81
-if has('gui_gtk2')
-  set guifont=DejaVu\ Sans\ Mono\ Book\ 12
-elseif has('gui_macvim')
-  set guifont=Consolas:h14
-endif
+set guifont=Consolas:h14
 set guioptions-=a
 set guioptions+=e
 set guioptions+=i

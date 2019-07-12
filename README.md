@@ -1,7 +1,7 @@
 Installing Vim Configuration Files
 ==================================
 ```
-cd ~/Repositories/GitHub/nkraft
+cd ~/Library
 git clone git@github.com:nkraft/vim.git
 cd vim
 ln -s $(pwd)/gvimrc ~/.gvimrc
@@ -14,13 +14,13 @@ git submodule update
 Adding Vim Modules
 ==================
 ```
-cd ~/Repositories/GitHub/nkraft/vim
+cd ~/Library/vim
 git submodule add <remote> runtime/bundle/<module-name>
 ```
 
 Updating Git Submodules
 =======================
 ```
-cd ~/Repositories/GitHub/nkraft/vim
+cd ~/Library/vim
 git submodule foreach git pull
 ```
