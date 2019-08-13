@@ -15,7 +15,7 @@ Adding Vim Modules
 ==================
 ```
 cd ~/Library/vim
-git submodule add <remote> runtime/bundle/<module-name>
+git submodule add <remote> runtime/pack/<collection>/start/<module-name>
 ```
 
 Updating Git Submodules

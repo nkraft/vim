@@ -7,3 +7,12 @@
 [submodule "runtime/pack/tpope/start/vim-endwise"]
 	path = runtime/pack/tpope/start/vim-endwise
 	url = git@github.com:tpope/vim-endwise.git
+[submodule "runtime/pack/tpope/start/vim-rails"]
+	path = runtime/pack/tpope/start/vim-rails
+	url = git@github.com:tpope/vim-rails.git
+[submodule "runtime/pack/vim-airline/start/vim-airline"]
+	path = runtime/pack/vim-airline/start/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "runtime/pack/vim-airline/start/vim-airline-themes"]
+	path = runtime/pack/vim-airline/start/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
