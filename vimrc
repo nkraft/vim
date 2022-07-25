@@ -45,8 +45,15 @@ set showmode
 if exists('+spelllang')
   set spelllang=en_us
 endif
+
+
 set splitbelow
 set splitright
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 set nostartofline
 set noswapfile
 set tabpagemax=100
@@ -162,5 +169,7 @@ let g:airline_powerline_fonts = 1
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
+
+let g:airline_section_y = ''
 
 " }}}
